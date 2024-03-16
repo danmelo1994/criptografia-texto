@@ -1,0 +1,118 @@
+:root {
+    --cor-primaria: #0A3871;
+    --cor-secundaria: #D8DFE8;
+    --cor-terciaria: #fff;
+    --cor-quaternaria: #495057;
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+    background-color: #f3f5fc;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+button {
+    font-family: 'Inter', sans-serif;
+}
+
+footer {
+    font-size: 14px;
+    color: var(--cor-quaternaria);
+}
+
+.buttons {
+    float: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.container_left {
+    float: left;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.container_center {
+    float: left;
+    margin-left: 200px;
+    margin-top: 40px;
+    justify-content: left;
+}
+
+.container_right {
+    float: right;
+}
+
+.container_button_crip {
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    border-radius: 24px;
+    gap: 8px;
+    background-color: var(--cor-primaria);
+    color: var(--cor-terciaria);
+    border: 1px solid var(--cor-primaria);
+}
+
+.container_button_descrip {
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    border-radius: 24px;
+    gap: 8px;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+    border: 1px solid var(--cor-primaria);
+}
+
+.btn_copy {
+    width: 225px;
+    height: 67px;
+    padding: 24px;
+    border-radius: 24px;
+    gap: 8px;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
+    border: 1px solid var(--cor-primaria);
+    margin-top: 5px;
+    margin-left: 80px;
+}
+
+.text_input {
+    color: var(--cor-primaria);
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-style: none;
+    border-radius: 16px;
+    margin-top: 50px;
+}
+
+.text_output {
+    top: 40px;
+    left: 1000px;
+    border-radius: 32px;
+    border-color: var(--cor-terciaria);
+    font-size: 40px;
+    background-color: var(--cor-terciaria);
+    box-shadow: 0px 24px 32px -8px #00000014;
+}
+
+.information {
+    font-size: 12px;
+    color: var(--cor-quaternaria);
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+textarea::placeholder {
+    color: var(--cor-primaria);
+}
